@@ -1,0 +1,5 @@
+alignment_dir: /storage/cahowe/hmmer1/submit
+protein_dir: /storage/eggleston-research/metagenomes
+output_dir:  /storage/cahowe/hmmer1
+gene_list: inputs/genelist.txt
+protein_list: inputs/protlist.txt

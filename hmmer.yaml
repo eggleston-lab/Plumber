@@ -1,0 +1,7 @@
+name: hmmer
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - hmmer
+
