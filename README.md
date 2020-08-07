@@ -1,7 +1,12 @@
 # Snakepipe
 A downloadable version of the the snakemake pipeline to run hmmer searches on metagenomes using pre-build MSAs. This pipline outputs hmmout files, as well as the fasta hit sequences, and the hit fasta sequences below a threshold E-value.
 
-Steps:
+# Requirements:
+This code requires the following to be on your PATH:
+
+	snakemake, conda, HMMER, seqtk, and yyaml
+
+# Steps:
 
 1.) Download Snakefile, submit_snake.sh, genefile.txt, theshold-parser.py, and all of the .yaml enviroment files	
 
