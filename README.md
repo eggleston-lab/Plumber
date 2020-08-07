@@ -38,5 +38,14 @@ Steps:
  
  10.) All of your results can be found under the hmm_search tab. Move the slurm.out files to the slurm_logs folder or delete them. 	
  
+ # Troubleshooting
+ Some issues I have encountered and their solutions
  
+ - occasionally, snakmake will report that the directory is locked and will not run. To fix, try:
+ 
+ 	"snakemake --cores=1 --unlock"
+	
+- The threshold parser cannot handle E-values greater than 1
+
+
     
